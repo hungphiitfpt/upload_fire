@@ -6,12 +6,23 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-    <script src="https://www.gstatic.com/firebasejs/8.2.8/firebase.js"></script>
     <script src="https://www.gstatic.com/firebasejs/8.2.8/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.2.8/firebase.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.2.8/firebase-auth.js"></script>
     <script src="https://www.gstatic.com/firebasejs/8.2.8/firebase-storage.js"></script>
+   
 
 </head>
 <body>
+
+    <div class="form-group text-center">
+        <button class="btn btn-block btn-social btn-google" id="btnGoogle" type="button"> <span class="fa fa-google"></span>Login with Google</button>
+    </div>
+    <div class="form-group text-center">
+        <button class="btn btn-block btn-social btn-facebook" id="btnFacebook" type="button"> <span class="fa fa-facebook"></span>Login with Facebook</button>
+    </div>
+
+
     <input type="file" id="photo" >
     <button onclick="uploadImage()">Uploads Images</button>
     <script src="/index.js"></script>
